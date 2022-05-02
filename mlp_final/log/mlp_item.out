@@ -1,0 +1,37 @@
+2022-05-01 20:02:13.500190: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2022-05-01 20:02:13.743391: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1105] Found device 0 with properties: 
+name: NVIDIA GeForce GTX 1080 major: 6 minor: 1 memoryClockRate(GHz): 1.797
+pciBusID: 0000:84:00.0
+totalMemory: 7.93GiB freeMemory: 6.65GiB
+2022-05-01 20:02:13.743444: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1195] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: NVIDIA GeForce GTX 1080, pci bus id: 0000:84:00.0, compute capability: 6.1)
+hidden_units:128
+numHist:0
+item_emb(graph):True
+gnn_layer:4
+gnn_method:gcn_att4_rn
+gcl:False
+gcl_ran_num:3000
+gcl_w:0.01
+user_emb:False
+gnn_user_emb:False
+gcl_user_emb:False
+start constructing adjcent table
+loading adjcent table from adj folder
+ready
+128
+logloss: 0.6995	 test_gauc: 0.5039	 test_auc: 0.5047
+Epoch 0 Global_step 1000	Train_loss: 0.5779	Trainlogloss: 0.5779	logloss: 0.5478	Eval_GAUC: 0.7841	Eval_AUC: 0.7848	Inference_time: 33.1730
+Epoch 0 Global_step 2000	Train_loss: 0.5455	Trainlogloss: 0.5455	logloss: 0.5438	Eval_GAUC: 0.7878	Eval_AUC: 0.7892	Inference_time: 35.5120
+Epoch 0 Global_step 3000	Train_loss: 0.5373	Trainlogloss: 0.5373	logloss: 0.5480	Eval_GAUC: 0.7895	Eval_AUC: 0.7900	Inference_time: 35.2694
+Epoch 0 Global_step 4000	Train_loss: 0.5348	Trainlogloss: 0.5348	logloss: 0.5402	Eval_GAUC: 0.7930	Eval_AUC: 0.7945	Inference_time: 33.0523
+Epoch 0 Global_step 5000	Train_loss: 0.5266	Trainlogloss: 0.5266	logloss: 0.5395	Eval_GAUC: 0.7943	Eval_AUC: 0.7964	Inference_time: 40.0766
+Epoch 0 Global_step 6000	Train_loss: 0.5243	Trainlogloss: 0.5243	logloss: 0.5282	Eval_GAUC: 0.8096	Eval_AUC: 0.8090	Inference_time: 35.2351
+Epoch 0 Global_step 7000	Train_loss: 0.4915	Trainlogloss: 0.4915	logloss: 0.5203	Eval_GAUC: 0.8138	Eval_AUC: 0.8154	Inference_time: 42.4736
+Epoch 0 Global_step 8000	Train_loss: 0.4876	Trainlogloss: 0.4876	logloss: 0.5262	Eval_GAUC: 0.8189	Eval_AUC: 0.8220	Inference_time: 45.4563
+Epoch 0 Global_step 9000	Train_loss: 0.4799	Trainlogloss: 0.4799	logloss: 0.5086	Eval_GAUC: 0.8263	Eval_AUC: 0.8287	Inference_time: 48.0546
+Epoch 0 Global_step 10000	Train_loss: 0.4782	Trainlogloss: 0.4782	logloss: 0.5102	Eval_GAUC: 0.8272	Eval_AUC: 0.8305	Inference_time: 47.7803
+Epoch 0 Global_step 11000	Train_loss: 0.4706	Trainlogloss: 0.4706	logloss: 0.5057	Eval_GAUC: 0.8260	Eval_AUC: 0.8291	Inference_time: 37.8721
+Epoch 0 Global_step 12000	Train_loss: 0.4694	Trainlogloss: 0.4694	logloss: 0.5068	Eval_GAUC: 0.8279	Eval_AUC: 0.8316	Inference_time: 51.4939
+Epoch 0 Global_step 13000	Train_loss: 0.4674	Trainlogloss: 0.4674	logloss: 0.5005	Eval_GAUC: 0.8319	Eval_AUC: 0.8340	Inference_time: 48.1645
+Epoch 0 Global_step 14000	Train_loss: 0.4671	Trainlogloss: 0.4671	logloss: 0.4874	Eval_GAUC: 0.8396	Eval_AUC: 0.8413	Inference_time: 44.6976
+Epoch 0 Global_step 15000	Train_loss: 0.4671	Trainlogloss: 0.4671	logloss: 0.4995	Eval_GAUC: 0.8320	Eval_AUC: 0.8333	Inference_time: 37.1253

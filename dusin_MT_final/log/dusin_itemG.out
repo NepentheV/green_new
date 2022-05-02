@@ -1,0 +1,28 @@
+2022-05-01 19:28:02.549226: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2022-05-01 19:28:02.865849: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1105] Found device 0 with properties: 
+name: NVIDIA GeForce GTX 1080 major: 6 minor: 1 memoryClockRate(GHz): 1.797
+pciBusID: 0000:02:00.0
+totalMemory: 7.93GiB freeMemory: 7.82GiB
+2022-05-01 19:28:02.865921: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1195] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: NVIDIA GeForce GTX 1080, pci bus id: 0000:02:00.0, compute capability: 6.1)
+hidden_units:128
+item_emb(graph):True
+gnn_layer:4
+gnn_method:gcn_att4_rn
+gcl:False
+gcl_ran_num:3000
+gcl_w:1.0
+user_emb:False
+gnn_user_emb:False
+gcl_user_emb:False
+start constructing adjcent table
+loading adjcent table from adj folder
+ready
+128
+logloss: 0.7309	 test_gauc: 0.4838	 test_auc: 0.4841
+Epoch 0 Global_step 1000	Train_loss: 0.5517	Trainlogloss: 0.5517	logloss: 0.5297	Eval_GAUC: 0.7953	Eval_AUC: 0.8194	Inference_time: 45.0990
+Epoch 0 Global_step 2000	Train_loss: 0.5067	Trainlogloss: 0.5067	logloss: 0.5022	Eval_GAUC: 0.8291	Eval_AUC: 0.8413	Inference_time: 49.9928
+Epoch 0 Global_step 3000	Train_loss: 0.4897	Trainlogloss: 0.4897	logloss: 0.4830	Eval_GAUC: 0.8371	Eval_AUC: 0.8487	Inference_time: 46.2998
+Epoch 0 Global_step 4000	Train_loss: 0.4779	Trainlogloss: 0.4779	logloss: 0.4814	Eval_GAUC: 0.8435	Eval_AUC: 0.8524	Inference_time: 52.7675
+Epoch 0 Global_step 5000	Train_loss: 0.4722	Trainlogloss: 0.4722	logloss: 0.4736	Eval_GAUC: 0.8446	Eval_AUC: 0.8571	Inference_time: 52.0357
+Epoch 0 Global_step 6000	Train_loss: 0.4629	Trainlogloss: 0.4629	logloss: 0.4678	Eval_GAUC: 0.8485	Eval_AUC: 0.8594	Inference_time: 50.5559
+Epoch 0 Global_step 7000	Train_loss: 0.4607	Trainlogloss: 0.4607	logloss: 0.4659	Eval_GAUC: 0.8554	Eval_AUC: 0.8639	Inference_time: 52.7773

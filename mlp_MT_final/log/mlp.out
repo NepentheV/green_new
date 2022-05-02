@@ -1,0 +1,137 @@
+2022-05-01 19:50:59.729811: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2022-05-01 19:51:00.034276: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1105] Found device 0 with properties: 
+name: NVIDIA GeForce GTX 1080 major: 6 minor: 1 memoryClockRate(GHz): 1.797
+pciBusID: 0000:02:00.0
+totalMemory: 7.93GiB freeMemory: 3.71GiB
+2022-05-01 19:51:00.034337: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1195] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: NVIDIA GeForce GTX 1080, pci bus id: 0000:02:00.0, compute capability: 6.1)
+hidden_units:128
+item_emb(graph):False
+gnn_layer:4
+gnn_method:gcn_att4_rn
+gcl:False
+gcl_ran_num:3000
+gcl_w:1.0
+user_emb:False
+gnn_user_emb:False
+gcl_user_emb:False
+start constructing adjcent table
+cnt-> 10000   time per interval:  4.02183985710144
+cnt-> 20000   time per interval:  3.732435941696167
+cnt-> 30000   time per interval:  3.674905776977539
+cnt-> 40000   time per interval:  3.38934326171875
+cnt-> 50000   time per interval:  5.910280227661133
+cnt-> 60000   time per interval:  3.582963228225708
+cnt-> 70000   time per interval:  3.3856256008148193
+cnt-> 80000   time per interval:  3.400360107421875
+cnt-> 90000   time per interval:  3.3551712036132812
+cnt-> 100000   time per interval:  3.3581063747406006
+cnt-> 110000   time per interval:  3.3140368461608887
+cnt-> 120000   time per interval:  6.069546699523926
+cnt1-> 10000   time per interval:  21.60646963119507
+cnt1-> 20000   time per interval:  14.209023237228394
+cnt1-> 30000   time per interval:  14.547887325286865
+cnt1-> 40000   time per interval:  14.147644281387329
+ready
+128
+logloss: 0.7036	 test_gauc: 0.4743	 test_auc: 0.4671
+Epoch 0 Global_step 1000	Train_loss: 0.6521	Trainlogloss: 0.6521	logloss: 0.6225	Eval_GAUC: 0.7124	Eval_AUC: 0.7112	Inference_time: 12.1205
+Epoch 0 Global_step 2000	Train_loss: 0.6051	Trainlogloss: 0.6051	logloss: 0.5840	Eval_GAUC: 0.7448	Eval_AUC: 0.7528	Inference_time: 12.3502
+Epoch 0 Global_step 3000	Train_loss: 0.5812	Trainlogloss: 0.5812	logloss: 0.5651	Eval_GAUC: 0.7609	Eval_AUC: 0.7722	Inference_time: 16.6911
+Epoch 0 Global_step 4000	Train_loss: 0.5676	Trainlogloss: 0.5676	logloss: 0.5562	Eval_GAUC: 0.7684	Eval_AUC: 0.7823	Inference_time: 12.4722
+Epoch 0 Global_step 5000	Train_loss: 0.5532	Trainlogloss: 0.5532	logloss: 0.5477	Eval_GAUC: 0.7754	Eval_AUC: 0.7911	Inference_time: 17.0164
+Epoch 0 Global_step 6000	Train_loss: 0.5439	Trainlogloss: 0.5439	logloss: 0.5439	Eval_GAUC: 0.7795	Eval_AUC: 0.7951	Inference_time: 13.8802
+Epoch 0 Global_step 7000	Train_loss: 0.5436	Trainlogloss: 0.5436	logloss: 0.5442	Eval_GAUC: 0.7832	Eval_AUC: 0.7992	Inference_time: 16.6329
+Epoch 0 Global_step 8000	Train_loss: 0.5343	Trainlogloss: 0.5343	logloss: 0.5350	Eval_GAUC: 0.7886	Eval_AUC: 0.8044	Inference_time: 12.3103
+Epoch 0 Global_step 9000	Train_loss: 0.5319	Trainlogloss: 0.5319	logloss: 0.5326	Eval_GAUC: 0.7914	Eval_AUC: 0.8065	Inference_time: 17.5415
+Epoch 0 Global_step 10000	Train_loss: 0.5306	Trainlogloss: 0.5306	logloss: 0.5281	Eval_GAUC: 0.7936	Eval_AUC: 0.8123	Inference_time: 13.2849
+Epoch 0 Global_step 11000	Train_loss: 0.5253	Trainlogloss: 0.5253	logloss: 0.5239	Eval_GAUC: 0.7952	Eval_AUC: 0.8146	Inference_time: 17.2948
+Epoch 0 Global_step 12000	Train_loss: 0.5194	Trainlogloss: 0.5194	logloss: 0.5247	Eval_GAUC: 0.7948	Eval_AUC: 0.8140	Inference_time: 8.0094
+Epoch 0 Global_step 13000	Train_loss: 0.5244	Trainlogloss: 0.5244	logloss: 0.5208	Eval_GAUC: 0.7987	Eval_AUC: 0.8176	Inference_time: 14.4803
+Epoch 0 Global_step 14000	Train_loss: 0.5179	Trainlogloss: 0.5179	logloss: 0.5187	Eval_GAUC: 0.7997	Eval_AUC: 0.8198	Inference_time: 18.3819
+Epoch 0 Global_step 15000	Train_loss: 0.5127	Trainlogloss: 0.5127	logloss: 0.5183	Eval_GAUC: 0.8027	Eval_AUC: 0.8214	Inference_time: 19.3458
+Epoch 0 Global_step 16000	Train_loss: 0.5125	Trainlogloss: 0.5125	logloss: 0.5143	Eval_GAUC: 0.8046	Eval_AUC: 0.8232	Inference_time: 14.3009
+Epoch 0 Global_step 17000	Train_loss: 0.5089	Trainlogloss: 0.5089	logloss: 0.5165	Eval_GAUC: 0.8053	Eval_AUC: 0.8232	Inference_time: 18.3839
+Epoch 0 Global_step 18000	Train_loss: 0.5129	Trainlogloss: 0.5129	logloss: 0.5100	Eval_GAUC: 0.8070	Eval_AUC: 0.8263	Inference_time: 19.3438
+Epoch 0 Global_step 19000	Train_loss: 0.5064	Trainlogloss: 0.5064	logloss: 0.5119	Eval_GAUC: 0.8084	Eval_AUC: 0.8272	Inference_time: 12.8252
+Epoch 0 Global_step 20000	Train_loss: 0.5048	Trainlogloss: 0.5048	logloss: 0.5082	Eval_GAUC: 0.8095	Eval_AUC: 0.8283	Inference_time: 17.4736
+Epoch 0 Global_step 21000	Train_loss: 0.5061	Trainlogloss: 0.5061	logloss: 0.5124	Eval_GAUC: 0.8077	Eval_AUC: 0.8253	Inference_time: 6.5900
+Epoch 0 Global_step 22000	Train_loss: 0.5001	Trainlogloss: 0.5001	logloss: 0.5073	Eval_GAUC: 0.8110	Eval_AUC: 0.8303	Inference_time: 17.4102
+Epoch 0 Global_step 23000	Train_loss: 0.4980	Trainlogloss: 0.4980	logloss: 0.5080	Eval_GAUC: 0.8133	Eval_AUC: 0.8318	Inference_time: 19.7345
+Epoch 0 Global_step 24000	Train_loss: 0.4976	Trainlogloss: 0.4976	logloss: 0.5089	Eval_GAUC: 0.8134	Eval_AUC: 0.8316	Inference_time: 13.9094
+Epoch 0 Global_step 25000	Train_loss: 0.4960	Trainlogloss: 0.4960	logloss: 0.5033	Eval_GAUC: 0.8151	Eval_AUC: 0.8337	Inference_time: 17.6689
+Epoch 0 Global_step 26000	Train_loss: 0.4945	Trainlogloss: 0.4945	logloss: 0.5030	Eval_GAUC: 0.8162	Eval_AUC: 0.8331	Inference_time: 20.3220
+Epoch 0 Global_step 27000	Train_loss: 0.4976	Trainlogloss: 0.4976	logloss: 0.5048	Eval_GAUC: 0.8159	Eval_AUC: 0.8328	Inference_time: 7.1037
+Epoch 0 Global_step 28000	Train_loss: 0.4938	Trainlogloss: 0.4938	logloss: 0.5028	Eval_GAUC: 0.8163	Eval_AUC: 0.8339	Inference_time: 18.6403
+Epoch 0 Global_step 29000	Train_loss: 0.4946	Trainlogloss: 0.4946	logloss: 0.5027	Eval_GAUC: 0.8174	Eval_AUC: 0.8354	Inference_time: 14.5132
+Epoch 0 Global_step 30000	Train_loss: 0.4966	Trainlogloss: 0.4966	logloss: 0.4982	Eval_GAUC: 0.8189	Eval_AUC: 0.8362	Inference_time: 18.7944
+Epoch 0 Global_step 31000	Train_loss: 0.4930	Trainlogloss: 0.4930	logloss: 0.5025	Eval_GAUC: 0.8184	Eval_AUC: 0.8355	Inference_time: 6.7501
+Epoch 0 Global_step 32000	Train_loss: 0.4870	Trainlogloss: 0.4870	logloss: 0.4989	Eval_GAUC: 0.8189	Eval_AUC: 0.8365	Inference_time: 19.4725
+Epoch 0 Global_step 33000	Train_loss: 0.4854	Trainlogloss: 0.4854	logloss: 0.4957	Eval_GAUC: 0.8212	Eval_AUC: 0.8390	Inference_time: 20.2786
+Epoch 0 Global_step 34000	Train_loss: 0.4944	Trainlogloss: 0.4944	logloss: 0.4947	Eval_GAUC: 0.8223	Eval_AUC: 0.8388	Inference_time: 19.8760
+Epoch 0 Global_step 35000	Train_loss: 0.4880	Trainlogloss: 0.4880	logloss: 0.4963	Eval_GAUC: 0.8221	Eval_AUC: 0.8396	Inference_time: 6.4249
+Epoch 0 Global_step 36000	Train_loss: 0.4849	Trainlogloss: 0.4849	logloss: 0.4938	Eval_GAUC: 0.8223	Eval_AUC: 0.8399	Inference_time: 10.9388
+Epoch 0 Global_step 37000	Train_loss: 0.4881	Trainlogloss: 0.4881	logloss: 0.4922	Eval_GAUC: 0.8242	Eval_AUC: 0.8409	Inference_time: 20.6034
+Epoch 0 Global_step 38000	Train_loss: 0.4808	Trainlogloss: 0.4808	logloss: 0.4918	Eval_GAUC: 0.8247	Eval_AUC: 0.8420	Inference_time: 16.5349
+Epoch 0 Global_step 39000	Train_loss: 0.4832	Trainlogloss: 0.4832	logloss: 0.4908	Eval_GAUC: 0.8258	Eval_AUC: 0.8430	Inference_time: 21.0508
+Epoch 0 Global_step 40000	Train_loss: 0.4860	Trainlogloss: 0.4860	logloss: 0.4925	Eval_GAUC: 0.8243	Eval_AUC: 0.8409	Inference_time: 11.0705
+Epoch 0 Global_step 41000	Train_loss: 0.4803	Trainlogloss: 0.4803	logloss: 0.4898	Eval_GAUC: 0.8259	Eval_AUC: 0.8433	Inference_time: 20.3791
+Epoch 0 Global_step 42000	Train_loss: 0.4790	Trainlogloss: 0.4790	logloss: 0.4929	Eval_GAUC: 0.8270	Eval_AUC: 0.8420	Inference_time: 15.8291
+Epoch 0 Global_step 43000	Train_loss: 0.4800	Trainlogloss: 0.4800	logloss: 0.4915	Eval_GAUC: 0.8287	Eval_AUC: 0.8449	Inference_time: 22.2777
+Epoch 0 Global_step 44000	Train_loss: 0.4813	Trainlogloss: 0.4813	logloss: 0.4884	Eval_GAUC: 0.8284	Eval_AUC: 0.8437	Inference_time: 10.5064
+Epoch 0 Global_step 45000	Train_loss: 0.4801	Trainlogloss: 0.4801	logloss: 0.4860	Eval_GAUC: 0.8292	Eval_AUC: 0.8453	Inference_time: 22.3185
+Epoch 0 Global_step 46000	Train_loss: 0.4769	Trainlogloss: 0.4769	logloss: 0.4865	Eval_GAUC: 0.8298	Eval_AUC: 0.8454	Inference_time: 22.4564
+Epoch 0 Global_step 47000	Train_loss: 0.4736	Trainlogloss: 0.4736	logloss: 0.4871	Eval_GAUC: 0.8290	Eval_AUC: 0.8456	Inference_time: 6.3565
+Epoch 0 Global_step 48000	Train_loss: 0.4826	Trainlogloss: 0.4826	logloss: 0.4827	Eval_GAUC: 0.8315	Eval_AUC: 0.8477	Inference_time: 22.8826
+Epoch 0 Global_step 49000	Train_loss: 0.4775	Trainlogloss: 0.4775	logloss: 0.4828	Eval_GAUC: 0.8320	Eval_AUC: 0.8476	Inference_time: 23.7890
+Epoch 0 Global_step 50000	Train_loss: 0.4780	Trainlogloss: 0.4780	logloss: 0.4851	Eval_GAUC: 0.8327	Eval_AUC: 0.8474	Inference_time: 22.8217
+Epoch 0 Global_step 51000	Train_loss: 0.4729	Trainlogloss: 0.4729	logloss: 0.4811	Eval_GAUC: 0.8333	Eval_AUC: 0.8493	Inference_time: 19.9731
+Epoch 0 Global_step 52000	Train_loss: 0.4735	Trainlogloss: 0.4735	logloss: 0.4818	Eval_GAUC: 0.8332	Eval_AUC: 0.8495	Inference_time: 10.7790
+Epoch 0 Global_step 53000	Train_loss: 0.4694	Trainlogloss: 0.4694	logloss: 0.4870	Eval_GAUC: 0.8326	Eval_AUC: 0.8477	Inference_time: 6.7625
+Epoch 0 Global_step 54000	Train_loss: 0.4724	Trainlogloss: 0.4724	logloss: 0.4842	Eval_GAUC: 0.8343	Eval_AUC: 0.8491	Inference_time: 23.3942
+Epoch 0 Global_step 55000	Train_loss: 0.4722	Trainlogloss: 0.4722	logloss: 0.4802	Eval_GAUC: 0.8359	Eval_AUC: 0.8512	Inference_time: 23.6851
+Epoch 0 Global_step 56000	Train_loss: 0.4700	Trainlogloss: 0.4700	logloss: 0.4791	Eval_GAUC: 0.8357	Eval_AUC: 0.8505	Inference_time: 6.0837
+Epoch 0 Global_step 57000	Train_loss: 0.4725	Trainlogloss: 0.4725	logloss: 0.4809	Eval_GAUC: 0.8363	Eval_AUC: 0.8514	Inference_time: 23.4687
+Epoch 0 Global_step 58000	Train_loss: 0.4649	Trainlogloss: 0.4649	logloss: 0.4806	Eval_GAUC: 0.8363	Eval_AUC: 0.8504	Inference_time: 23.7719
+Epoch 0 Global_step 59000	Train_loss: 0.4651	Trainlogloss: 0.4651	logloss: 0.4795	Eval_GAUC: 0.8366	Eval_AUC: 0.8516	Inference_time: 28.9003
+Epoch 0 Global_step 60000	Train_loss: 0.4687	Trainlogloss: 0.4687	logloss: 0.4779	Eval_GAUC: 0.8381	Eval_AUC: 0.8527	Inference_time: 24.2413
+Epoch 0 Global_step 61000	Train_loss: 0.4666	Trainlogloss: 0.4666	logloss: 0.4791	Eval_GAUC: 0.8370	Eval_AUC: 0.8513	Inference_time: 6.1004
+Epoch 0 Global_step 62000	Train_loss: 0.4655	Trainlogloss: 0.4655	logloss: 0.4794	Eval_GAUC: 0.8379	Eval_AUC: 0.8528	Inference_time: 6.5291
+Epoch 0 Global_step 63000	Train_loss: 0.4685	Trainlogloss: 0.4685	logloss: 0.4775	Eval_GAUC: 0.8383	Eval_AUC: 0.8526	Inference_time: 24.3587
+Epoch 0 Global_step 64000	Train_loss: 0.4700	Trainlogloss: 0.4700	logloss: 0.4735	Eval_GAUC: 0.8399	Eval_AUC: 0.8541	Inference_time: 25.7623
+Epoch 0 Global_step 65000	Train_loss: 0.4626	Trainlogloss: 0.4626	logloss: 0.4735	Eval_GAUC: 0.8408	Eval_AUC: 0.8546	Inference_time: 26.5371
+Epoch 0 Global_step 66000	Train_loss: 0.4604	Trainlogloss: 0.4604	logloss: 0.4787	Eval_GAUC: 0.8400	Eval_AUC: 0.8540	Inference_time: 10.4487
+Epoch 0 Global_step 67000	Train_loss: 0.4645	Trainlogloss: 0.4645	logloss: 0.4755	Eval_GAUC: 0.8411	Eval_AUC: 0.8540	Inference_time: 25.4491
+Epoch 0 Global_step 68000	Train_loss: 0.4647	Trainlogloss: 0.4647	logloss: 0.4744	Eval_GAUC: 0.8404	Eval_AUC: 0.8545	Inference_time: 6.3935
+Epoch 0 Global_step 69000	Train_loss: 0.4621	Trainlogloss: 0.4621	logloss: 0.4753	Eval_GAUC: 0.8415	Eval_AUC: 0.8560	Inference_time: 26.8709
+Epoch 0 Global_step 70000	Train_loss: 0.4664	Trainlogloss: 0.4664	logloss: 0.4730	Eval_GAUC: 0.8421	Eval_AUC: 0.8562	Inference_time: 30.4376
+Epoch 0 Global_step 71000	Train_loss: 0.4662	Trainlogloss: 0.4662	logloss: 0.4704	Eval_GAUC: 0.8417	Eval_AUC: 0.8562	Inference_time: 5.9868
+Epoch 0 Global_step 72000	Train_loss: 0.4642	Trainlogloss: 0.4642	logloss: 0.4705	Eval_GAUC: 0.8418	Eval_AUC: 0.8567	Inference_time: 6.3343
+Epoch 0 Global_step 73000	Train_loss: 0.4662	Trainlogloss: 0.4662	logloss: 0.4706	Eval_GAUC: 0.8425	Eval_AUC: 0.8567	Inference_time: 25.6331
+Epoch 0 Global_step 74000	Train_loss: 0.4625	Trainlogloss: 0.4625	logloss: 0.4705	Eval_GAUC: 0.8428	Eval_AUC: 0.8573	Inference_time: 27.8628
+Epoch 0 Global_step 75000	Train_loss: 0.4600	Trainlogloss: 0.4600	logloss: 0.4703	Eval_GAUC: 0.8430	Eval_AUC: 0.8569	Inference_time: 26.3498
+Epoch 0 Global_step 76000	Train_loss: 0.4544	Trainlogloss: 0.4544	logloss: 0.4689	Eval_GAUC: 0.8443	Eval_AUC: 0.8588	Inference_time: 30.9830
+Epoch 0 Global_step 77000	Train_loss: 0.4570	Trainlogloss: 0.4570	logloss: 0.4675	Eval_GAUC: 0.8446	Eval_AUC: 0.8580	Inference_time: 28.1125
+Epoch 0 Global_step 78000	Train_loss: 0.4540	Trainlogloss: 0.4540	logloss: 0.4678	Eval_GAUC: 0.8449	Eval_AUC: 0.8586	Inference_time: 28.2504
+Epoch 0 Global_step 79000	Train_loss: 0.4558	Trainlogloss: 0.4558	logloss: 0.4670	Eval_GAUC: 0.8456	Eval_AUC: 0.8592	Inference_time: 28.6180
+Epoch 0 Global_step 80000	Train_loss: 0.4543	Trainlogloss: 0.4543	logloss: 0.4633	Eval_GAUC: 0.8488	Eval_AUC: 0.8621	Inference_time: 28.0917
+Epoch 0 Global_step 81000	Train_loss: 0.4561	Trainlogloss: 0.4561	logloss: 0.4658	Eval_GAUC: 0.8480	Eval_AUC: 0.8613	Inference_time: 10.7657
+Epoch 0 Global_step 82000	Train_loss: 0.4545	Trainlogloss: 0.4545	logloss: 0.4650	Eval_GAUC: 0.8477	Eval_AUC: 0.8610	Inference_time: 6.6340
+Epoch 0 Global_step 83000	Train_loss: 0.4570	Trainlogloss: 0.4570	logloss: 0.4645	Eval_GAUC: 0.8480	Eval_AUC: 0.8620	Inference_time: 6.0243
+Epoch 0 Global_step 84000	Train_loss: 0.4530	Trainlogloss: 0.4530	logloss: 0.4665	Eval_GAUC: 0.8474	Eval_AUC: 0.8612	Inference_time: 6.3648
+Epoch 0 Global_step 85000	Train_loss: 0.4520	Trainlogloss: 0.4520	logloss: 0.4611	Eval_GAUC: 0.8497	Eval_AUC: 0.8631	Inference_time: 30.5251
+Epoch 0 Global_step 86000	Train_loss: 0.4545	Trainlogloss: 0.4545	logloss: 0.4637	Eval_GAUC: 0.8494	Eval_AUC: 0.8619	Inference_time: 6.4812
+Epoch 0 Global_step 87000	Train_loss: 0.4530	Trainlogloss: 0.4530	logloss: 0.4620	Eval_GAUC: 0.8481	Eval_AUC: 0.8623	Inference_time: 6.5667
+Epoch 0 Global_step 88000	Train_loss: 0.4475	Trainlogloss: 0.4475	logloss: 0.4616	Eval_GAUC: 0.8494	Eval_AUC: 0.8631	Inference_time: 6.3074
+Epoch 0 Global_step 89000	Train_loss: 0.4493	Trainlogloss: 0.4493	logloss: 0.4608	Eval_GAUC: 0.8494	Eval_AUC: 0.8636	Inference_time: 6.0661
+Epoch 0 Global_step 90000	Train_loss: 0.4530	Trainlogloss: 0.4530	logloss: 0.4612	Eval_GAUC: 0.8493	Eval_AUC: 0.8631	Inference_time: 6.1969
+Epoch 0 DONE	Cost time: 3973.68
+Epoch 1 Global_step 91000	Train_loss: 0.1658	Trainlogloss: 0.1658	logloss: 0.4650	Eval_GAUC: 0.8509	Eval_AUC: 0.8649	Inference_time: 28.2712
+Epoch 1 Global_step 92000	Train_loss: 0.4094	Trainlogloss: 0.4094	logloss: 0.4688	Eval_GAUC: 0.8484	Eval_AUC: 0.8621	Inference_time: 11.5772
+Epoch 1 Global_step 93000	Train_loss: 0.4208	Trainlogloss: 0.4208	logloss: 0.4666	Eval_GAUC: 0.8497	Eval_AUC: 0.8637	Inference_time: 6.2901
+Epoch 1 Global_step 94000	Train_loss: 0.4135	Trainlogloss: 0.4135	logloss: 0.4625	Eval_GAUC: 0.8486	Eval_AUC: 0.8638	Inference_time: 6.2994
+Epoch 1 Global_step 95000	Train_loss: 0.4189	Trainlogloss: 0.4189	logloss: 0.4610	Eval_GAUC: 0.8514	Eval_AUC: 0.8658	Inference_time: 27.9990
+Epoch 1 Global_step 96000	Train_loss: 0.4186	Trainlogloss: 0.4186	logloss: 0.4622	Eval_GAUC: 0.8506	Eval_AUC: 0.8644	Inference_time: 6.5999
+Epoch 1 Global_step 97000	Train_loss: 0.4179	Trainlogloss: 0.4179	logloss: 0.4596	Eval_GAUC: 0.8506	Eval_AUC: 0.8644	Inference_time: 10.7587
+Epoch 1 Global_step 98000	Train_loss: 0.4125	Trainlogloss: 0.4125	logloss: 0.4640	Eval_GAUC: 0.8511	Eval_AUC: 0.8641	Inference_time: 6.3425
+Epoch 1 Global_step 99000	Train_loss: 0.4191	Trainlogloss: 0.4191	logloss: 0.4617	Eval_GAUC: 0.8517	Eval_AUC: 0.8650	Inference_time: 27.7818
+Epoch 1 Global_step 100000	Train_loss: 0.4175	Trainlogloss: 0.4175	logloss: 0.4625	Eval_GAUC: 0.8515	Eval_AUC: 0.8649	Inference_time: 6.2055

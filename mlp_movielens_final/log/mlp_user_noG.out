@@ -1,0 +1,75 @@
+2022-05-01 20:17:21.443215: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2022-05-01 20:17:21.759469: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1105] Found device 0 with properties: 
+name: NVIDIA GeForce GTX 1080 major: 6 minor: 1 memoryClockRate(GHz): 1.797
+pciBusID: 0000:84:00.0
+totalMemory: 7.93GiB freeMemory: 5.45GiB
+2022-05-01 20:17:21.759545: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1195] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: NVIDIA GeForce GTX 1080, pci bus id: 0000:84:00.0, compute capability: 6.1)
+hidden_units:128
+numHot:40
+pruning:0
+item_emb(graph):False
+gnn_layer:4
+gnn_method:gcn_att4_rn
+gcl:False
+gcl_ran_num:1000
+gcl_w:2.0
+user_emb:True
+gnn_user_emb:False
+gcl_user_emb:False
+start constructing adjcent table
+loading item table from adj folder
+loading user table from adj folder
+ready
+128
+logloss: 0.7035	 test_gauc: 0.4768	 test_auc: 0.4859
+Epoch 0 Global_step 1000	Train_loss: 0.6754	logloss: 0.6679	Eval_GAUC: 0.6292	Eval_AUC: 0.6304
+Epoch 0 Global_step 2000	Train_loss: 0.6559	logloss: 0.6584	Eval_GAUC: 0.6429	Eval_AUC: 0.6495
+Epoch 0 Global_step 3000	Train_loss: 0.6511	logloss: 0.6532	Eval_GAUC: 0.6458	Eval_AUC: 0.6549
+Epoch 0 Global_step 4000	Train_loss: 0.6474	logloss: 0.6468	Eval_GAUC: 0.6512	Eval_AUC: 0.6596
+Epoch 0 Global_step 5000	Train_loss: 0.6397	logloss: 0.6458	Eval_GAUC: 0.6543	Eval_AUC: 0.6617
+Epoch 0 Global_step 6000	Train_loss: 0.6403	logloss: 0.6507	Eval_GAUC: 0.6591	Eval_AUC: 0.6639
+Epoch 0 Global_step 7000	Train_loss: 0.6406	logloss: 0.6439	Eval_GAUC: 0.6591	Eval_AUC: 0.6685
+Epoch 0 Global_step 8000	Train_loss: 0.6379	logloss: 0.6426	Eval_GAUC: 0.6598	Eval_AUC: 0.6669
+Epoch 0 Global_step 9000	Train_loss: 0.6373	logloss: 0.6442	Eval_GAUC: 0.6611	Eval_AUC: 0.6714
+Epoch 0 Global_step 10000	Train_loss: 0.6330	logloss: 0.6391	Eval_GAUC: 0.6631	Eval_AUC: 0.6742
+Epoch 0 Global_step 11000	Train_loss: 0.6367	logloss: 0.6395	Eval_GAUC: 0.6626	Eval_AUC: 0.6727
+Epoch 0 Global_step 12000	Train_loss: 0.6344	logloss: 0.6373	Eval_GAUC: 0.6661	Eval_AUC: 0.6772
+Epoch 0 Global_step 13000	Train_loss: 0.6333	logloss: 0.6364	Eval_GAUC: 0.6699	Eval_AUC: 0.6808
+Epoch 0 Global_step 14000	Train_loss: 0.6295	logloss: 0.6386	Eval_GAUC: 0.6720	Eval_AUC: 0.6791
+Epoch 0 Global_step 15000	Train_loss: 0.6300	logloss: 0.6360	Eval_GAUC: 0.6715	Eval_AUC: 0.6801
+Epoch 0 Global_step 16000	Train_loss: 0.6290	logloss: 0.6342	Eval_GAUC: 0.6722	Eval_AUC: 0.6828
+Epoch 0 Global_step 17000	Train_loss: 0.6310	logloss: 0.6350	Eval_GAUC: 0.6730	Eval_AUC: 0.6814
+Epoch 0 Global_step 18000	Train_loss: 0.6258	logloss: 0.6371	Eval_GAUC: 0.6710	Eval_AUC: 0.6800
+Epoch 0 Global_step 19000	Train_loss: 0.6295	logloss: 0.6336	Eval_GAUC: 0.6738	Eval_AUC: 0.6829
+Epoch 0 Global_step 20000	Train_loss: 0.6289	logloss: 0.6345	Eval_GAUC: 0.6765	Eval_AUC: 0.6831
+Epoch 0 Global_step 21000	Train_loss: 0.6281	logloss: 0.6341	Eval_GAUC: 0.6757	Eval_AUC: 0.6837
+Epoch 0 Global_step 22000	Train_loss: 0.6263	logloss: 0.6353	Eval_GAUC: 0.6769	Eval_AUC: 0.6858
+Epoch 0 Global_step 23000	Train_loss: 0.6249	logloss: 0.6324	Eval_GAUC: 0.6763	Eval_AUC: 0.6853
+Epoch 0 Global_step 24000	Train_loss: 0.6253	logloss: 0.6341	Eval_GAUC: 0.6778	Eval_AUC: 0.6849
+Epoch 0 Global_step 25000	Train_loss: 0.6262	logloss: 0.6320	Eval_GAUC: 0.6777	Eval_AUC: 0.6866
+Epoch 0 Global_step 26000	Train_loss: 0.6276	logloss: 0.6309	Eval_GAUC: 0.6790	Eval_AUC: 0.6862
+Epoch 0 Global_step 27000	Train_loss: 0.6264	logloss: 0.6304	Eval_GAUC: 0.6834	Eval_AUC: 0.6903
+Epoch 0 Global_step 28000	Train_loss: 0.6222	logloss: 0.6294	Eval_GAUC: 0.6844	Eval_AUC: 0.6909
+Epoch 0 Global_step 29000	Train_loss: 0.6254	logloss: 0.6282	Eval_GAUC: 0.6841	Eval_AUC: 0.6926
+Epoch 0 Global_step 30000	Train_loss: 0.6173	logloss: 0.6316	Eval_GAUC: 0.6841	Eval_AUC: 0.6910
+Epoch 0 Global_step 31000	Train_loss: 0.6200	logloss: 0.6295	Eval_GAUC: 0.6829	Eval_AUC: 0.6917
+Epoch 0 Global_step 32000	Train_loss: 0.6215	logloss: 0.6267	Eval_GAUC: 0.6876	Eval_AUC: 0.6948
+Epoch 0 Global_step 33000	Train_loss: 0.6220	logloss: 0.6274	Eval_GAUC: 0.6873	Eval_AUC: 0.6943
+Epoch 0 Global_step 34000	Train_loss: 0.6180	logloss: 0.6287	Eval_GAUC: 0.6876	Eval_AUC: 0.6965
+Epoch 0 Global_step 35000	Train_loss: 0.6177	logloss: 0.6298	Eval_GAUC: 0.6872	Eval_AUC: 0.6955
+Epoch 0 Global_step 36000	Train_loss: 0.6182	logloss: 0.6264	Eval_GAUC: 0.6873	Eval_AUC: 0.6970
+Epoch 0 Global_step 37000	Train_loss: 0.6181	logloss: 0.6252	Eval_GAUC: 0.6894	Eval_AUC: 0.6970
+Epoch 0 Global_step 38000	Train_loss: 0.6164	logloss: 0.6263	Eval_GAUC: 0.6905	Eval_AUC: 0.6991
+Epoch 0 Global_step 39000	Train_loss: 0.6187	logloss: 0.6254	Eval_GAUC: 0.6882	Eval_AUC: 0.6969
+Epoch 0 Global_step 40000	Train_loss: 0.6171	logloss: 0.6283	Eval_GAUC: 0.6882	Eval_AUC: 0.6978
+Epoch 0 Global_step 41000	Train_loss: 0.6173	logloss: 0.6256	Eval_GAUC: 0.6902	Eval_AUC: 0.6989
+Epoch 0 Global_step 42000	Train_loss: 0.6170	logloss: 0.6247	Eval_GAUC: 0.6924	Eval_AUC: 0.7021
+Epoch 0 Global_step 43000	Train_loss: 0.6145	logloss: 0.6264	Eval_GAUC: 0.6903	Eval_AUC: 0.7006
+Epoch 0 Global_step 44000	Train_loss: 0.6143	logloss: 0.6273	Eval_GAUC: 0.6926	Eval_AUC: 0.7002
+Epoch 0 Global_step 45000	Train_loss: 0.6144	logloss: 0.6272	Eval_GAUC: 0.6905	Eval_AUC: 0.6992
+Epoch 0 Global_step 46000	Train_loss: 0.6155	logloss: 0.6225	Eval_GAUC: 0.6914	Eval_AUC: 0.7014
+Epoch 0 Global_step 47000	Train_loss: 0.6137	logloss: 0.6231	Eval_GAUC: 0.6942	Eval_AUC: 0.7014
+Epoch 0 Global_step 48000	Train_loss: 0.6129	logloss: 0.6218	Eval_GAUC: 0.6967	Eval_AUC: 0.7034
+Epoch 0 Global_step 49000	Train_loss: 0.6157	logloss: 0.6219	Eval_GAUC: 0.6970	Eval_AUC: 0.7029
+Epoch 0 Global_step 50000	Train_loss: 0.6189	logloss: 0.6212	Eval_GAUC: 0.6968	Eval_AUC: 0.7039
+Epoch 0 Global_step 51000	Train_loss: 0.6132	logloss: 0.6242	Eval_GAUC: 0.6956	Eval_AUC: 0.7032

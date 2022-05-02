@@ -1,0 +1,24 @@
+2022-05-01 20:14:22.021582: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2022-05-01 20:14:22.255684: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1105] Found device 0 with properties: 
+name: NVIDIA GeForce GTX 1080 major: 6 minor: 1 memoryClockRate(GHz): 1.797
+pciBusID: 0000:83:00.0
+totalMemory: 7.93GiB freeMemory: 7.39GiB
+2022-05-01 20:14:22.255755: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1195] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: NVIDIA GeForce GTX 1080, pci bus id: 0000:83:00.0, compute capability: 6.1)
+hidden_units:128
+numHist:0
+item_emb(graph):True
+gnn_layer:4
+gnn_method:gcn_att4_rn
+gcl:False
+gcl_ran_num:3000
+gcl_w:0.01
+user_emb:True
+gnn_user_emb:True
+gcl_user_emb:False
+start constructing adjcent table
+loading adjcent table from adj folder
+ready
+128
+logloss: 0.8813	 test_gauc: 0.5022	 test_auc: 0.5015
+Epoch 0 Global_step 1000	Train_loss: 0.5808	Trainlogloss: 0.5808	logloss: 0.5472	Eval_GAUC: 0.7861	Eval_AUC: 0.7869	Inference_time: 183.4971
+Epoch 0 Global_step 2000	Train_loss: 0.5452	Trainlogloss: 0.5452	logloss: 0.5428	Eval_GAUC: 0.7887	Eval_AUC: 0.7917	Inference_time: 182.0846
